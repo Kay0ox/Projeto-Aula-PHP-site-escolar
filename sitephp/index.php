@@ -1,5 +1,6 @@
 <?php
 
+
     include_once("templates/topo.php");
     include_once("templates/menu.php");
 
@@ -10,4 +11,5 @@
         $pg = $_GET['pg'];
         include_once("$pg.php");
     }
+
     include_once("templates/rodape.php");
